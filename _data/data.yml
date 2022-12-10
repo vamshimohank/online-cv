@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -14,203 +14,144 @@ sidebar:
     # Sidebar links
     email: v.katukuri@fkf.mpg.de
     phone: +49 17645621178
-    timezone: America/Cancun Timezone
     citizenship:
-    website: vamshimohank.gitlab.io/myhome/ #do not add http://
+    website: vamshimohank.gitlab.io/myhome
     linkedin: vamshimohank
-    xing: #
+    xing:
     github: vamshimohank
-    telegram: # add your nickname without '@' sign
-    gitlab:
+    telegram: 
+    gitlab: vamshimohank
     bitbucket:
     twitter: '@katuk001'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: #http://www.africau.edu/images/default/sample.pdf
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Professional
+      - idiom: English
+        level: Fluent/Professional
 
-        - idiom: German
-          level: B level
-
-        - idiom: Telugu
-          level: Native
+      - idiom: Telugu
+        level: Native
+        
+      - idiom: German
+        level: B level
 
     interests:
-      title: Interests
-      info:
-        - item: Horse Riding
-          link:
+      - item: Running, Tennis
+        link:
+        
+      - item: Horse Riding
+        link:
 
-        - item: Running
-          link:
-
-        - item: Electronic tinkering
-          link:
+      - item: Electronic tinkering
+        link:
 
 career-profile:
-    title: Career Profile
+    title: About me
     summary: |
-      I am a meticulous, dedicated and capable scientist with over ten years of research experience in theoretical and computational condensed matter physics and quantum chemistry.
+      I am a quantum and materials physicst by training. My research interests include, but not limited to,
+      quantum mechanical simulation of materials. I am also interested in expanding 
+      my research to the field of qunatum computing. I strongly believe that exploiting quantum mechanics 
+      for computer simulations would change the way we live in the near future.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+    - degree: PhD in Physics
+      university: Dresden Technical University, Dresden
+      time: 2011 - 2014
+      details: |
+        Thesis: Quantum chemical approach to spin-orbit excitations and magnetic interactions in iridium oxides.
+    - degree: MSc in Material Science Engineering
+      university: University of Minnesotta, Minneapolis
+      time: 2008 - 2011
+      details: |
+        Thesis: A DFT+ U study of a Ni-Mn-Ga magnetic shape.
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+    - role: Scientist
+      time: 2019 - Present
+      company: Max Planck Institute for Solid State Research, Stuttgart, Germany.
+      details: |
+        I conduct fundamental research in the following fields of quantum physics:
+          - Large-scale and accurate quantum chemical simulations on novel and exotic materials.
+          - Advancing the understanding of the fundamental interactions in quantum materials.
+    - role: Postdoc Research Scientist
+      time: 2015 - 2019
+      company: EPFL, Lausanne, Switzerland
+      details: |
+        I developed and applied auxiliary-field quantum Monte Carlo to periodic solids
+        of relevance to 
+          - Energy storage
+          - Superconducting materials
+    - role: Doctoral Research Assistant
+      time: 2011 - 2014
+      company: IFW-Dresden, Dresden, Germany
+      details: |
+        I developed quantum chemical methods for solid-state materials
+          - Quantum embedding theories, for example, density matrix embedding
+          - 2D topological materials
+          - Beyond-silicon materials for photovoltaics (halide perovskite, double perovskite) 
+    - role: Research Assistant
+      time: 2008 - 2011
+      company: University of Minnesota, Minneapolis, USA.
+      details: |
+        I applied quantum chemical and molecular simulation methods to framework materials
+          - Periodic density functional theory
+          - Monte Carlo simulation
+          - Metal-organic and covalent-organic frameworks
+          - Crystal topology analysis
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      #I have been developing open-source library for computational materials and quantum chemistry
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: #pDMET
+        link: #"https://github.com/hungpham2017/pDMET"
+        tagline: #"A program to compute electronic structure of periodic systems and materials by means of density matrix embedding theory."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: #MCU
+        link: #"https://github.com/hungpham2017/mcu"
+        tagline: #"A Python library to analyze the periodic wave functions from DFT calculations."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: #pyWannier90
+        link: #"https://github.com/hungpham2017/pywannier90"
+        tagline: #"A Python program to construct the maximally-localized Wannier functions."
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      #You can find my full list of publications in [my Google Scholar](https://scholar.google.co.in/citations?user=VzztEMUAAAAJ&hl=en)
+      Some selected papers:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: #Periodic Density Matrix Embedding Theory&#58; A Wave Function Approach for Strongly Correlated Materials
+        link: #"https://pubs.acs.org/doi/10.1021/acs.jctc.9b00939"
+        authors: #H. Q. Pham et al.
+        conference: #"J. Chem. Theory Comput. 2020, 16, 1, 130–140"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: #"Topological Insulating Phase in Single-Layer Pentagonal Covalent Organic Frameworks&#58; 
+                #A Reticular Design using Metal-Phthalocyanine"
+        link: #"https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.1c00671"
+        authors: #H. Q. Pham et al.
+        conference: #"Chem. Mater. 2021, 33, 12, 4488–4499"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: #Recent Developments in the PySCF Program Package
+        link: #"https://aip.scitation.org/doi/10.1063/5.0006074"
+        authors: #Sun et al.
+        conference: #"J. Chem. Phys. 2020, 153, 024109"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      - name: C++
+        level: 80%
+        
+      - name: Fortran
+        level: 80%
+    
+      - name: Cupy, mpi4py
+        level: 80%    
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
